@@ -1,4 +1,4 @@
-module github.com/actiontech/mybatis-mapper-2-sql
+module github.com/kongjun01/mybatis-mapper-2-sql
 
 go 1.14
 

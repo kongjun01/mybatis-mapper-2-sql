@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/actiontech/mybatis-mapper-2-sql/ast"
+	"github.com/kongjun01/mybatis-mapper-2-sql/ast"
 )
 
 func ParseXML(data string) (string, error) {
