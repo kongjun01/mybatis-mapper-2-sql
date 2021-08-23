@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/xml"
 
-	"github.com/actiontech/mybatis-mapper-2-sql/sqlfmt"
+	"github.com/kongjun01/mybatis-mapper-2-sql/sqlfmt"
 )
 
 type QueryNode struct {
