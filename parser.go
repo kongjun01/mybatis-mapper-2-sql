@@ -12,7 +12,7 @@ func ParseXML(data string) (string, error) {
 	r := strings.NewReader(data)
 	d := xml.NewDecoder(r)
 	n, err := parse(d, nil)
-	if err != nil {
+	if n == nil || err != nil {
 		return "", err
 	}
 	stmt, err := n.GetStmt(ast.NewContext())
